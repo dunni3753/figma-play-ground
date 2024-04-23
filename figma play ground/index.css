@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content h1 :nth-child(1) {
+  background: url(/Assets/Rectangle3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 90px;
+}
+.content h1 :nth-child(2) {
+  background: url(/Assets/Rectangle3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 40px;
+}
+.brandSection{
+  height: 70px;
+  background-color: rgb(167, 146, 28);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.cards{
+  justify-content: center;
+  mix-blend-mode: multiply;
+}
